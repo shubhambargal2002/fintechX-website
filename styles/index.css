@@ -1,0 +1,7 @@
+#TextBox10, #TextBox15, #TextBox16, #TextBox17, #TextBox24, #TextBox29, #TextBox31, #TextBox34, #TextBox40, #TextBox43, #TextBox69, #TextBox72{
+    rotate: 45deg;
+}
+
+#FramerFlex16::-webkit-scrollbar{
+    height: 1px;
+}
