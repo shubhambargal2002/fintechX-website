@@ -23,7 +23,7 @@ export default createComponentManifest({
 		height: { type: "number" },
         initialWidth: { type: "number" },
         hoverWidth: { type: "number" },
-        topPadding: { type: "number" },
+        bottomPadding: { type: "number" },
 		duration: { type: "number" },
 	},
 
@@ -34,7 +34,7 @@ export default createComponentManifest({
         height: 0,
         initialWidth: 0,
         hoverWidth: 0,
-        topPadding: 0,
+        bottomPadding: 0,
         duration: 0
     }
 });

@@ -12,7 +12,7 @@ const LineText = React.forwardRef<
 			height?: number;
 			initialWidth?: number,
 			hoverWidth?: number,
-			topPadding?: number,
+			bottomPadding?: number,
 			duration?: number;
 		};
         className?: string;
@@ -47,6 +47,7 @@ const LineText = React.forwardRef<
 	return (
 		<div ref={ref} className={props.className} id={props.id} style={props.styles} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
 			<motion.div
+			    style={{paddingBottom: `${props.custom.bottomPadding}px`}}
 				animate={controls}
 				variants={textVariants}
 				initial={"mouseleave"}
@@ -57,7 +58,7 @@ const LineText = React.forwardRef<
 				animate={controls}
 				variants={underlineVariants}
 				initial={"mouseleave"}
-				style={{ height: `${props.custom.height}px`, paddingTop: `${props.custom.topPadding}px`}}
+				style={{ height: `${props.custom.height}px`}}
 			></motion.div>
 		</div>
 	);
