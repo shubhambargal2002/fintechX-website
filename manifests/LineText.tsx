@@ -12,6 +12,7 @@ const LineText = React.forwardRef<
 			height?: number;
 			initialWidth?: number,
 			hoverWidth?: number,
+			topPadding?: number,
 			duration?: number;
 		};
         className?: string;
@@ -27,13 +28,13 @@ const LineText = React.forwardRef<
 	const underlineVariants = {
 		mouseleave: {
 			backgroundColor: props.custom.nonHoverColor,
-			transition: { duration: props.custom.duration},
 			width: `${props.custom.initialWidth}%`,
+			transition: { duration: props.custom.duration},
 		},
 		mouseenter: {
 			backgroundColor: props.custom.hoverColor,
-			transition: { duration: props.custom.duration},
 			width: `${props.custom.hoverWidth}%`,
+			transition: { duration: props.custom.duration},
 		},
 	};
 	const controls = useAnimationControls();
@@ -56,7 +57,7 @@ const LineText = React.forwardRef<
 				animate={controls}
 				variants={underlineVariants}
 				initial={"mouseleave"}
-				style={{ height: `${props.custom.height}px` }}
+				style={{ height: `${props.custom.height}px`, paddingTop: `${props.custom.topPadding}px`}}
 			></motion.div>
 		</div>
 	);
