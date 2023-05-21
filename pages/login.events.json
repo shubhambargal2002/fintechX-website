@@ -12348,5 +12348,27 @@
       }
     },
     "id": "ef1628bf-97de-4922-b03d-f65a13c84c76"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/cssTree",
+    "slice": {
+      "property": {
+        "styles": {
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    "id": "576e932d-e3fa-4d30-bc50-4046094d5a96"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/cssTree",
+    "slice": {
+      "property": {
+        "styles": {
+          "boxSizing": "border-box"
+        }
+      }
+    },
+    "id": "d0607d96-04f5-4392-ba5b-15f0b758956f"
   }
 ]
