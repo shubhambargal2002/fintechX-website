@@ -50,7 +50,7 @@ const Pages = React.forwardRef<
 				style={{
 					position: "absolute",
 					top: "5em",
-					right: "0",
+					// right: "0",
 					zIndex: 1
 				}}
 			>

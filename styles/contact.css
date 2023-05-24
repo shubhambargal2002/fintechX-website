@@ -1,3 +1,15 @@
 .Input1::-webkit-input-placeholder, .Input2::-webkit-input-placeholder, .Input3::-webkit-input-placeholder, .Textarea1::-webkit-input-placeholder{
     color: gray;
 }
+
+.ant-collapse-header-text{
+    font-size: 22px;
+    line-height: 32px;
+    color: #080808;
+}
+
+.ant-collapse-content-box{
+    font-size: 16px;
+    line-height: 27px;
+    color: #575757;
+}
