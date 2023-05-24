@@ -15051,5 +15051,120 @@
       }
     },
     "id": "2e30f4ab-2ade-4652-8556-fe64d10df328"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "<p>Desktop and mobile apps</p>"
+        }
+      }
+    },
+    "id": "9e83b69e-d3a8-4307-8805-e7400a2b30e2"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "<p>Payments and billing</p>"
+        }
+      }
+    },
+    "id": "35961440-48a5-4ec0-a403-e2ea4d261151"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "<p>Troubleshooting</p>"
+        }
+      }
+    },
+    "id": "1331eca2-99ba-4bd6-900c-491503aebf70"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "<p>Investing and trading</p>"
+        }
+      }
+    },
+    "id": "bcbfc237-57fb-4092-acff-83fe36cbf1ee"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "text": "<p>Security</p>"
+        }
+      }
+    },
+    "id": "ed853f8e-a64b-441c-b101-00e0146c4aed"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "alt": "No preview available",
+          "src": "/assets/fintechX_62.svg"
+        }
+      }
+    },
+    "id": "5fb68005-2ce1-4653-b5d4-22f32cb19ed2"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "alt": "No preview available",
+          "src": "/assets/fintechX_63.svg"
+        }
+      }
+    },
+    "id": "3f47fbce-d982-44bc-af2c-cd192ccadffa"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "alt": "No preview available",
+          "src": "/assets/fintechX_64.svg"
+        }
+      }
+    },
+    "id": "e8781f2a-73b8-4709-acea-ea57a65f08ce"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "alt": "No preview available",
+          "src": "/assets/fintechX_65.svg"
+        }
+      }
+    },
+    "id": "f32e32bd-dcdc-46f8-b9bb-edba7858db29"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "alt": "No preview available",
+          "src": "/assets/fintechX_66.svg"
+        }
+      }
+    },
+    "id": "8e51e6e4-0b71-4320-b859-087807c52b32"
   }
 ]
