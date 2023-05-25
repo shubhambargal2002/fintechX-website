@@ -277,8 +277,6 @@ class Page:
 		self.Flex56 = state["Flex56"] if "Flex56" in state else None
 		self.Flex57 = state["Flex57"] if "Flex57" in state else None
 		self.Flex58 = state["Flex58"] if "Flex58" in state else None
-		self.Flex59 = state["Flex59"] if "Flex59" in state else None
-		self.Image15 = state["Image15"] if "Image15" in state else None
 		self.Flex60 = state["Flex60"] if "Flex60" in state else None
 		self.Accordion5 = state["Accordion5"] if "Accordion5" in state else None
 		self.ButtonFlex13 = state["ButtonFlex13"] if "ButtonFlex13" in state else None
@@ -297,6 +295,8 @@ class Page:
 		self.Anchor71 = state["Anchor71"] if "Anchor71" in state else None
 		self.Accordion7 = state["Accordion7"] if "Accordion7" in state else None
 		self.Flex63 = state["Flex63"] if "Flex63" in state else None
+		self.Flex64 = state["Flex64"] if "Flex64" in state else None
+		self.Image16 = state["Image16"] if "Image16" in state else None
 		self._setter_access_tracker = {}
 		self._getter_access_tracker = {}
   
@@ -2606,24 +2606,6 @@ class Page:
 		self._Flex58 = Flex(new_state)
 
 	@property
-	def Flex59(self):
-		self._getter_access_tracker["Flex59"] = {}
-		return self._Flex59
-	@Flex59.setter
-	def Flex59(self, new_state):
-		self._setter_access_tracker["Flex59"] = {}
-		self._Flex59 = Flex(new_state)
-
-	@property
-	def Image15(self):
-		self._getter_access_tracker["Image15"] = {}
-		return self._Image15
-	@Image15.setter
-	def Image15(self, new_state):
-		self._setter_access_tracker["Image15"] = {}
-		self._Image15 = Image(new_state)
-
-	@property
 	def Flex60(self):
 		self._getter_access_tracker["Flex60"] = {}
 		return self._Flex60
@@ -2784,6 +2766,24 @@ class Page:
 	def Flex63(self, new_state):
 		self._setter_access_tracker["Flex63"] = {}
 		self._Flex63 = Flex(new_state)
+
+	@property
+	def Flex64(self):
+		self._getter_access_tracker["Flex64"] = {}
+		return self._Flex64
+	@Flex64.setter
+	def Flex64(self, new_state):
+		self._setter_access_tracker["Flex64"] = {}
+		self._Flex64 = Flex(new_state)
+
+	@property
+	def Image16(self):
+		self._getter_access_tracker["Image16"] = {}
+		return self._Image16
+	@Image16.setter
+	def Image16(self, new_state):
+		self._setter_access_tracker["Image16"] = {}
+		self._Image16 = Image(new_state)
   
 	def _to_json_fields(self):
 		return {
@@ -3042,8 +3042,6 @@ class Page:
 			"Flex56": self._Flex56,
 			"Flex57": self._Flex57,
 			"Flex58": self._Flex58,
-			"Flex59": self._Flex59,
-			"Image15": self._Image15,
 			"Flex60": self._Flex60,
 			"Accordion5": self._Accordion5,
 			"ButtonFlex13": self._ButtonFlex13,
@@ -3061,6 +3059,8 @@ class Page:
 			"ButtonFlex15": self._ButtonFlex15,
 			"Anchor71": self._Anchor71,
 			"Accordion7": self._Accordion7,
-			"Flex63": self._Flex63
+			"Flex63": self._Flex63,
+			"Flex64": self._Flex64,
+			"Image16": self._Image16
 			}
   

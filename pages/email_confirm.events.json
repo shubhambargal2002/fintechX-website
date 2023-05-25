@@ -2895,5 +2895,29 @@
       }
     },
     "id": "abb7f261-cd99-4093-97cf-3173e241fe32"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "duration": 0.5,
+          "delay": 0
+        }
+      }
+    },
+    "id": "ad523c58-ace8-4ad2-8fab-2775db7cf8c9"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "duration": 0.5,
+          "delay": 0.3
+        }
+      }
+    },
+    "id": "ad523c58-ace8-4ad2-8fab-2775db7cf8c9"
   }
 ]

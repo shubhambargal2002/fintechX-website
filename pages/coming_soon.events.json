@@ -3790,5 +3790,53 @@
       }
     },
     "id": "10dfd76a-0966-46c1-80a9-898cf7e420c1"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "duration": 0.5,
+          "delay": 0
+        }
+      }
+    },
+    "id": "5bc2b425-e2f2-4a39-a126-6a2abdb9a143"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "duration": 0.5,
+          "delay": 0.3
+        }
+      }
+    },
+    "id": "5bc2b425-e2f2-4a39-a126-6a2abdb9a143"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "duration": 0.5,
+          "delay": 0
+        }
+      }
+    },
+    "id": "20f840b8-9a92-46c4-a7b8-ecfe6063453c"
+  },
+  {
+    "type": "PATCH$$@atrilabs/app-design-forest/src/customPropsTree",
+    "slice": {
+      "property": {
+        "custom": {
+          "duration": 0.5,
+          "delay": 0.3
+        }
+      }
+    },
+    "id": "20f840b8-9a92-46c4-a7b8-ecfe6063453c"
   }
 ]
